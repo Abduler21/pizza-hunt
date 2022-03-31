@@ -32,7 +32,7 @@ const pizzaController = {
       });
   },
 
-  // createPizza
+  // createPizzaa
   createPizza({ body }, res) {
     Pizza.create(body)
       .then((dbPizzaData) => res.json(dbPizzaData))
